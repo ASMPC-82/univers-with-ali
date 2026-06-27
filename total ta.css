@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    /* برای راست به چپ کردن متن */
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+    /* رنگ پس‌زمینه خیلی روشن */
+}
+
+header {
+    background-color: #555;
+    /* رنگ تیره برای هدر */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    /* نمایش آیتم‌های منو کنار هم */
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #666;
+    border-radius: 4px;
+}
+
+/* بخش اصلی صفحه */
+main {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    /* پس‌زمینه سفید برای محتوا */
+    width: 80%;
+    border-radius: 8px;
+}
+
+/* بخش خانه */
+.hero {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 150px;
+    /* اندازه کوچک‌تر برای عکس */
+    height: 150px;
+    border-radius: 50%;
+    /* گرد کردن عکس */
+    margin-bottom: 15px;
+    border: 3px solid #ccc;
+}
+
+.hero h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* بخش درباره من و تماس با من */
+.about-section,
+.contact-section {
+    margin-bottom: 30px;
+}
+
+.about-section h1,
+.contact-section h1 {
+    font-size: 22px;
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.about-img,
+.contact-img {
+    width: 100%;
+    /* عکس‌ها به اندازه عرض بخش */
+    max-width: 250px;
+    /* حداکثر اندازه */
+    display: block;
+    margin: 10px auto;
+    /* وسط چین کردن عکس */
+    border-radius: 8px;
+}
+
+.about-text p,
+.contact-info p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #444;
+}
+
+.contact-info ul {
+    list-style: disc;
+    /* علامت دایره برای لیست */
+    padding-right: 25px;
+}
+
+/* فوتر */
+footer {
+    background-color: #555;
+    /* رنگ تیره برای فوتر */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+}
